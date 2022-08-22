@@ -1,0 +1,29 @@
+{
+  "name": "kcaegissystem-extension",
+  "version": "0.0.0",
+  "description": "艦これ支援ツール",
+  "scripts": {
+    "make": "npm run make:manifest && npm run make:typescript",
+    "make:manifest": "node meta/makeManifest.cjs",
+    "make:typescript": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentai-mayo/kcAegisSystem-extension.git"
+  },
+  "keywords": [
+    "typescript",
+    "chrome extension",
+    "KanColle"
+  ],
+  "author": "mentai-mayo",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mentai-mayo/kcAegisSystem-extension/issues"
+  },
+  "homepage": "https://github.com/mentai-mayo/kcAegisSystem-extension#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.195",
+    "typescript": "^4.7.4"
+  }
+}
